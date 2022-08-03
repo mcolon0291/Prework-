@@ -1,0 +1,100 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: pink;
+}
+
+header {
+    background-color: pink;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 15%;
+    border-radius: 50%;
+}
+
+a:link {
+    font-size: 0.9em;
+    padding: 0.5em;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #4caf50;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+a:hover {
+    background: #44f1c6;
+    color: #fff;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 3em;
+    margin-left: 5em;
+    margin-top: 1.5em;
+}
+.navbar li {
+    text-decoration: none;
+}
+
+.main {
+    width: 50%;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main p {
+    line-height: 1.4em;
+}
+
+footer {
+    background-color: pink;
+    padding: 1em;
+    text-align: center;
+}
+
+/* About me page */
+table {
+    margin: 0 auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: left;
+    padding: .06em;
+}
+
+iframe {
+    margin: 2em 1em;
+}
+
+#idLinkedInIcon{background-color:rgb(0, 102, 170);border-radius:6px;color:white;cursor:pointer;display:inline-block;font:bold 30px Arial, Helvetica, sans-serif;height:35px;margin-top:1px;text-align:center;width:35px;}
+#idLinkedInIcon:hover{background-color:#06d;}
